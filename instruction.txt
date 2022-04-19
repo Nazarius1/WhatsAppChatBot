@@ -1,0 +1,14 @@
+1. activate the environment which is dedicated for the project
+2. if the model is not yet created (chatbot_model.h5), run the chatbot.py file. 
+   The command usually "python chatbot.py". Since the code is using 200 epochs, try to use early stopper to improve the speed of the process.
+   At the moment this tutorial is written, Early-stopper method is not yet implemented.
+3. run app.py
+4 provided you already gave access to ngrok, open cmd in its folder (C:\Windows\System32\cmd.exe)
+4. run ngrok (ngrok http #hostnumber, example: ngrok http 5000)
+5. using twilio as the API sandbox, go to https://console.twilio.com/us1/develop/sms/settings/whatsapp-sandbox?frameUrl=%2Fconsole%2Fsms%2Fwhatsapp%2Fsandbox%3Fx-target-region%3Dus1,
+configure the phone number, put the Forwarding address from ngrok, added by "/5000" next to column "When a message comes in"
+6. Save. 
+
+Link:
+https://python.plainenglish.io/create-a-deep-learning-chatbot-with-python-and-flask-d75396a4382a
+https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio

@@ -1,0 +1,97 @@
+{
+    "intents": [
+        {"tag": "help",
+            "patterns": ["Help", "Can you help me?", "I need help"],
+            "responses": ["Put here your question so I can help you", "How can I help you?", "certainly, tell me your question"]
+           },
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+       "responses": ["Hi stranger", "yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+       "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+      },
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+       },
+       {"tag": "name",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+        },
+       {"tag": "tell a joke",
+        "patterns": ["Can you tell me a joke?", "Tell a joke","make me laugh", "be funny"],
+        "responses": ["Yo momma so dumb, she tried to surf the microwave", "Me: Would you like to be the sun in my life? \n Her: Awww... Yes!!! \n Me: Good then stay 92.96 million miles away from me", "Why are frogs always so happy? \n They eat what ever bugs them", "I couldn't figure out why the baseball kept getting larger. Then it hit me.", "Yo mama so fat, she doesn't need internet, she's already worldwide"]
+        },
+        {"tag": "harsh",
+            "patterns": ["send nudes", "get lost", "suck", "fuck", "damn", "crap", "sod", "bugger", "bloody thing", "arse", "stupid", "shit", "mothefucker"],
+            "responses": ["Please do not use hars words, this does not help both of us", "Could you be more polite, please?"]
+            },
+        {"tag": "real",
+            "patterns": ["are you real?", "are you a human or a bot?", "can you think?"],
+            "responses": ["I am a chatbot, an AI software that simulates online conversations in natural language with users like you"]
+            },
+        {"tag": "options",
+         "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+         "responses": ["I can tell you about South Africa", "I can give you interesting facts about South Africa"]
+        },
+       {"tag": "south_africa_info",
+        "patterns": ["South Africa", "What can you tell me about SA", "SA", "Tell me about SA", "What about SA", "What do you know about SA", "Tell me more about SA", "What can you tell me about South Africa", "Tell me about South Africa", "What about South Africa", "What do you know about South Africa", "Tell me more about South Africa"],
+        "responses": ["South Africa is the southern most country in Africa, it has a population of more than 59million people and covers an area of 1221 037m2. South Africa has 11 official languages. The currency used in ZAR our South African Rand which trades at about 15ZAR per 1USD."]
+        },
+        {"tag": "bad_mood",
+            "patterns": ["I am sad", "not so well",
+                        "I do not feel well"],
+            "responses": ["I am sorry to hear that", 
+                        "hope you could feel better after talking with me",
+                        "Sorry to hear that, let me give you a quote to cheer you up: \"Stars can’t shine without darkness\" :)"]
+            },
+      {
+          "tag": "beehive",
+          "patterns": ["How to get rid of a beehive?"],
+          "responses": ["Call an area apiarist.  They should be able to help you and would most likely remove them at no charge in exchange for the hive.  The bees have value and they now belong to you."]
+      },
+
+      {
+        "tag": "not_helpful",
+        "patterns": ["This is not helping", "You are not answering my question", "I do not understand you", " I hate you"],
+        "responses": ["I am sorry, maybe if you reformulate the question better, I would be able to help you?", "Unfortunately I cannot help you more than this"]
+    },
+      
+      {
+          "tag": "EuropeanServeWater",
+          "patterns": ["Why don't European restaurants serve water?"],
+          "responses": ["There's a general belief in Europe (and in fact elsewhere in the world, such as China) that it's unhealthy to drink water with a meal because it dilutes the digestive juices. Wine is OK because it stimulates digestion, and mineral waters are also considered digestives.. . In general, Europeans are much more concerned with the digestive process than Americans."]
+      },
+      {
+          "tag": "hybrid_is_better",
+          "patterns": ["Why hybrid cars gas mileage is better in city?"],
+          "responses": ["hybrid cars save energy in two ways: 1.by storing energy from the breaks2.by engaging the gas motor only in it's most effective work RPM meaning that the system will engage the gas motor mostly at coursing speed (close to the most efficient motor RPM)Having said the above, driving in the city almost never gets you to the efficient RPM.Also- it is true that the same energy that is being stored in the cars' battery needed to be generated by chemic energy. The cool thing about it is that the pollution can be outside of the city and not in the city. (Like in San Francisco, the electric buses generate the same pollution as a gas buses it is just not in the city.You can also add that electric engines are much quieter then gas engines.So- all in all- I the hybrid benefits are more visible in city driving"]
+      },
+      {
+          "tag": "e=mc2",
+          "patterns": ["Can someone explain the theory of e=mc2?"],
+          "responses": ["In general it means that in a very high speed (also apply for low speed but hard to measure) , a Mass turns into Energy and vise versa. The conversion rate is C2 (C square)."]
+      },
+      {
+          "tag": "elephants_communicate",
+          "patterns": ["how do Elephants communicate?"],
+          "responses": ["There make very low frequency sounds that we cannot hear. They also make sounds that we do hear and it is because they what other animals to hear it."]
+      },
+      {
+          "tag": "dogs_smell_sense",
+          "patterns": ["why does dogs, which have an excellent smell sense, needs to stuck their nose into whatever they"],
+          "responses": ["its expected, as the concentration of the molecules that have the scent they are trying to get rapidly fades away with distance. . . They can get a sense that something is there, but when they are very close, probably they will have even more information: how long that smell is there, how many different scents are there, etc."]
+      },
+      {
+          "tag": "Boil_lobster",
+          "patterns": ["How to boil lobster?"],
+          "responses": ["Fill a large pot with 1/4 full of water or just enough to cover your lobster and add a generous handful of salt. When it comes to a boil, put the lobster in the pot head first. Then boil for 18 for the first pound and 10 minutes more for each additional pound. For lobsters over 7 pounds, 8 minutes per additional pound is enough."]
+      }
+         ]
+}

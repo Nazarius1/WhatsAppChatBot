@@ -1,0 +1,5 @@
+Create a Deep Learning Chatbot with Python and Flask
+
+link: https://python.plainenglish.io/create-a-deep-learning-chatbot-with-python-and-flask-d75396a4382a
+
+environment: conda activate WhatsappChatBotEnv
